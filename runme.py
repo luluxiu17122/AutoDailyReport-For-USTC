@@ -3,9 +3,9 @@ import random
 from Report import *
 
 report_data = [
-    ("juzhudi", "中校区"),  # 居住地
-    ("dorm_building", "z2"),  # 宿舍楼
-    ("dorm", "414"),  # 宿舍号
+    ("juzhudi", "高新校区"),  # 居住地
+    ("dorm_building", "G7"),  # 宿舍楼
+    ("dorm", "807"),  # 宿舍号
     ("body_condition", "1"),  # 身体状况 1为正常
     ("body_condition_detail", ""),  # 身体状况详细 正常无需
     ("now_status", "1"),  # 当前状态 1为正常在校园内
@@ -16,9 +16,9 @@ report_data = [
     ("last_touch_sars_detail", ""),  # 具体情况
     ("is_danger", "0"),  # 当前居住地是否为疫情中高风险地区 0为否
     ("is_goto_danger", "0"),  # 14天内是否有疫情中高风险地区旅居史 0为否
-    ("jinji_lxr", "cyzkrau"),  # 紧急联系人
-    ("jinji_guanxi", "self"),  # 与本人关系
-    ("jiji_mobile", "18701375065"),  # 紧急联系人电话
+    ("jinji_lxr", "林虹"),  # 紧急联系人
+    ("jinji_guanxi", "母亲"),  # 与本人关系
+    ("jiji_mobile", "13912960864"),  # 紧急联系人电话
     ("other_detail", ""),  # 其他情况说明
 ]
 cross_campus_data = [
@@ -34,8 +34,8 @@ out_school_data = [
     ("return_college[]", "庐阳区"),  # 目的地
     ("reason", "玩"),  # 原因
 ]
-number = "187****5065"
-course = ["泛函分析", "组合", "拓扑"]
+number = "18805198869"
+course = ["实变与泛函", "组合数学", "统计学习"]
 croos_campus_dates = [] # 申请跨校区的日期
 
 if __name__ == "__main__":
