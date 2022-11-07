@@ -36,7 +36,7 @@ out_school_data = [
 ]
 number = "18805198869"
 course = ["实变与泛函", "组合数学", "统计学习"]
-croos_campus_dates = [1,2,3,4,5,6] # 申请跨校区的日期
+croos_campus_dates = [1,2,3,4,5,6,7] # 申请跨校区的日期
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
