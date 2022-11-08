@@ -34,9 +34,9 @@ out_school_data = [
     ("return_college[]", "庐阳区"),  # 目的地
     ("reason", "玩"),  # 原因
 ]
-number = "187****5065"
-course = ["泛函分析", "组合", "拓扑"]
-croos_campus_dates = [] # 申请跨校区的日期
+number = "18805198869"
+course = ["实变与泛函", "组合数学", "统计学习"]
+croos_campus_dates = [1,2,3,4,5,6] # 申请跨校区的日期
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
